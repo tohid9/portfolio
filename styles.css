@@ -1,0 +1,168 @@
+body {
+    background-color: white;
+}
+
+/* header {
+    text-align: center;
+    background-color: #859fa2;
+    background: linear-gradient(90deg, rgb(34, 3, 3), rgb(236, 70, 70), rgb(51, 13, 187), rgb(107, 153, 20));
+    padding: 1% 0 1% 0;
+    color: white;
+    box-shadow: 10px 5px 12px 15px rgba(34, 24, 89, 0.9), 12px 8px 15px 20px rgba(20, 205, 19, 0.25);
+    animation-name: header-dance;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes header-dance {
+    0% {
+        background: linear-gradient(90deg, rgb(80, 74, 74), rgb(42, 14, 145), #fc0, #0fc);
+    }
+
+    50% {
+        background: linear-gradient(90deg, #0fc, #fc0, rgb(42, 14, 145), rgb(80, 74, 74))
+    }
+
+    100% {
+        background: linear-gradient(90deg, #f9f9f9, #d89, #859fa2);
+    }
+} */
+
+h1 {
+    position: relative;
+    top: auto;
+    color: white;
+}
+
+header p {
+    font-family: "Zen Loop", cursive;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    animation-name: dancing;
+    animation-duration: 5s;
+    color: white;
+    animation-iteration-count: infinite;
+}
+
+#img-div {
+    background-color: black;
+    color: white;
+    border: 2px solid #0e4890;
+
+}
+
+#center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+figcaption {
+    margin-top: 1%;
+    text-align: center;
+    color: green;
+    font-size: 18px;
+}
+
+li {
+    margin: 5px 0px 5px 0px;
+}
+
+:root {
+    --h3-color: rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 300px) {
+    figcaption {
+        font-size: 15px;
+    }
+}
+
+#intro {
+    color: white;
+    line-height: 25px;
+    background: linear-gradient(90deg, rgb(80, 74, 74), rgb(42, 14, 145), #fc0, #0fc);
+}
+
+#intro a {
+    color: white;
+}
+
+a:hover {
+    background-color: skyblue;
+    color: rgb(225, 65, 172);
+}
+
+header p:hover {
+    transform: scale(1.2);
+}
+
+h2 {
+    text-align: center;
+}
+
+#fav-sport {
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+}
+
+
+header h1 {
+    position: relative;
+    animation-name: colorful;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes colorful {
+    0% {
+        color: rgba(0, 0, 0, 1);
+        opacity: 1;
+    }
+
+    50% {
+        color: white;
+        opacity: 0.5;
+    }
+
+    100% {
+        color: black;
+        opacity: 1;
+    }
+}
+
+#navbar {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+/* #enjoyment {
+    background: repeating-linear-gradient(90deg, #fed 0px, #dec 25px, #ecb 110px, #cab 145px, #aaa 220px, #9af 325px);
+} */
+
+@keyframes dancing {
+    0% {
+        color: rgba(0, 0, 0, 1);
+        opacity: 0.25;
+    }
+
+    50% {
+        color: #431;
+        opacity: 0.5;
+    }
+
+    100% {
+        color: black;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 450px) {
+    #enjoyment {
+        background-color: hsl(250, 50%, 75%) !important;
+        color: hsla(10, 100%, 10%, 0.8) !important;
+    }
+}
